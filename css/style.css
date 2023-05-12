@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    position: absolute;
 }
 
 .main-container {
@@ -117,6 +118,43 @@ body {
 }
 
 
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+nav img {
+    height: 19px;
+    width: 61px;
+    left: 30px;
+    top: 30px;
+}
+
+nav li {
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+nav li:hover {
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
