@@ -205,6 +205,40 @@ form input {
     
 }
 
+h2 {
+    font-size: 18px;
+}
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtres li {
+    border: 3px solid #F2F2F2;
+    border-radius: 25px;
+    margin: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    list-style: none;
+    padding: 12px;
+}
+
+.fa-money-bill-wave {
+    padding-right: 8px;
+}
+
+.fa-person {
+    padding-right: 8px;
+}
+.fa-heart {
+    padding-right: 8px;
+}
+.fa-fire {
+    padding-right: 8px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
