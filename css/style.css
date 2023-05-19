@@ -53,9 +53,12 @@ body {
 }
 
 .neutralStar {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color)    
 }
 
+.neutral-star {
+    color: #F2F2F2;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -73,6 +76,7 @@ body {
 .hebergements {
     width: 65%;
 }
+
 
 /****** Populaires ***********/
 .populaires {
