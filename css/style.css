@@ -31,6 +31,8 @@ body {
 .section-title {
     margin: 0;
     font-size: 22px;
+    font-weight: 700;
+    font-size: 22px;
 }
 
 .card {
@@ -46,6 +48,7 @@ body {
 
 .card-title {
     font-size: 16px;
+    font-weight: 700;
 }
 
 .euro {
@@ -69,6 +72,7 @@ body {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
+    padding-bottom: 0px;
     box-sizing: border-box;
 }
 
@@ -83,7 +87,6 @@ body {
     flex-wrap:wrap;
     justify-content:space-between;
     box-sizing: border-box;
-    
 }
 
 .hebergements-cards .card {
@@ -123,6 +126,8 @@ body {
 
 #afficher-plus{
     font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /****** Populaires ***********/
@@ -170,7 +175,40 @@ body {
     margin-bottom: 5px;
 }
 
-/* Mon code ajouté */
+/* Activités*/
+
+.activites-a-marseille {
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.card-activites img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.card-activites {
+    width: 25%;
+    height: auto;
+    border-radius: 0px 0px 20px 20px;
+    gap: 30px;
+    box-shadow: 0px 10px 10px #F2F2F2;
+}
+
+.activites {
+    flex-direction: row;
+    flex-wrap:nowrap;
+    display:flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.card-activites .card-title {
+    padding: 19px 20px;
+}
+/* Nav */
 nav {
     display:flex;
     justify-content: space-between;
@@ -299,6 +337,35 @@ h2 {
     padding: 3px 8px 3px 8px;
     margin-right: 8px;
     margin-bottom: 20px;
+}
+
+/* FOOTER*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+footer ul {
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer li {
+    padding-bottom: 20px;
+}
+
+.a-propos {
+    font-weight:400;
+    font-size: 16;
+}
+
+footer h3 {
+    font-size: 16px;
 }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
