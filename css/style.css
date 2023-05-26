@@ -343,17 +343,18 @@ h2 {
     background-color: #F2F2F2;
     padding: 20px;
     justify-content: flex-start;
-    gap: 30px;
 }
 
 footer ul {
     flex-direction: column;
     list-style: none;
     padding-left: 0px;
+    padding-right: 70px;
+    margin-bottom: 0px;
 }
 
 footer li {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .a-propos {
