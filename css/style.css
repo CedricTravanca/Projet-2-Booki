@@ -473,6 +473,24 @@ footer h3 {
     nav ul {
         width: 100%;
         justify-content: space-around;
+        padding: 0;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    nav li {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li:hover {
+        border-bottom: solid 2px #0065FC;
+        border-top: none;
+        color: #0065FC;
+        margin-top: 0px;
     }
 
     form button {
