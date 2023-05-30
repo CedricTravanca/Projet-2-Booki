@@ -511,6 +511,14 @@ footer h3 {
     .recherche-filtres {
         padding: 20px;
     }
+
+    .recherche-filtres h1 {
+        margin: 0px;
+    }
+    
+    .recherche-filtres p {
+        margin-bottom: 30px;
+    }
     .barre-de-recherche .recherche  {
         display: none;
     }
