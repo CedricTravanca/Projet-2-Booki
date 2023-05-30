@@ -1,4 +1,6 @@
-/****** General ***********/
+@media (max-width: 1440px) {
+
+    /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -239,6 +241,7 @@ nav li:hover {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -374,6 +377,7 @@ footer li {
 footer h3 {
     font-size: 16px;
 }
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -484,6 +488,7 @@ footer h3 {
         margin: 0px;
         display: flex;
         justify-content: center;
+        padding:10px;
     }
 
     nav li:hover {
@@ -502,18 +507,16 @@ footer h3 {
         width: 49px;
         border: 1px solid #0065FC;
         font-size: 17px;
-
     }
 
-    button span {
-        color: red;
-    }
+    
     .recherche-filtres {
         padding: 20px;
     }
 
     .recherche-filtres h1 {
         margin: 0px;
+        font-size: 22px;
     }
     
     .recherche-filtres p {
@@ -528,10 +531,58 @@ footer h3 {
         grid-template-columns: 160px 160px ;
     }
 
+    .info {
+        display: flex;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .populaires {
+        margin: 0px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .populaires-cards .card {
+        height: 146px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .populaires-cards img {
+        height: 100%;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+    }
+
+    .hebergements-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hebergements-cards .card {
+        width: 100%;
+    }
+
+    .hebergements-cards img {
+        height: 120px;
+    }
     .activites-a-marseille {
         display: flex;
         flex-direction: column;
         padding: 30px;
+    }
+
+    .hebergements-and-populaires .hebergements{
+        background-color: #FFFFFF;
     }
 
     .activites-a-marseille .activites {
