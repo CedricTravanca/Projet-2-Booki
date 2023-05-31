@@ -482,13 +482,15 @@ footer h3 {
 
     nav a {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     nav li {
         margin: 0px;
         display: flex;
-        justify-content: center;
         padding:10px;
+        width: 100%;
     }
 
     nav li:hover {
@@ -498,6 +500,9 @@ footer h3 {
         margin-top: 0px;
     }
 
+    nav li {
+        border-bottom: solid 2px #f2f2f2;
+    }
     form button {
         display: flex;
         justify-content: center;
