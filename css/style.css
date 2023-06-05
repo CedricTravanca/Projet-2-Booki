@@ -275,6 +275,10 @@ form button {
     display: none;
 }
 
+.barre-de-recherche span {
+    display: flex;
+}
+
 .fa-location-dot {
     display: flex;
     background-color:  #F2F2F2;
@@ -282,6 +286,7 @@ form button {
     width: 50px;
     height: 49px;
     text-align: center;
+    justify-content: center;
     color: black;    
 }
 
@@ -289,11 +294,11 @@ form button {
 form span {
     display:flex;
     justify-content: center;
-    align-items: center;   
+    align-items:center;   
 }
 
 .recherche {
-    background-color: #0065FC;
+    background-color: #0065fc;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -330,9 +335,11 @@ h2 {
 .fa-person {
     padding-right: 8px;
 }
+
 .fa-heart {
     padding-right: 8px;
 }
+
 .fa-fire {
     padding-right: 8px;
 }
