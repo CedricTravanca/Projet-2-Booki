@@ -289,6 +289,9 @@ form button {
     color: black;    
 }
 
+::placeholder {
+    color: black;
+}
 
 form span {
     display:flex;
