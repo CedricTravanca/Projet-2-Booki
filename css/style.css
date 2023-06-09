@@ -419,6 +419,10 @@ footer h3 {
   margin-top: 50px;
 }
 
+.populaires a {
+  display: flex;
+  }
+  
 .populaires-cards {
   display: flex;
   flex-direction: row;
@@ -565,6 +569,7 @@ form button {
 .populaires {
   margin: 0px;
 }
+
 
 .populaires-cards {
   display: flex;
