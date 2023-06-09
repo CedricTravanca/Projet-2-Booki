@@ -360,7 +360,7 @@ h2 {
 
 /* FOOTER*/
 
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   background-color: #F2F2F2;
